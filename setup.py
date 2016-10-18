@@ -35,6 +35,7 @@ VECTORS_DEPENDENCY = "cryptography_vectors=={0}".format(about['__version__'])
 
 requirements = [
     "idna>=2.0",
+    "pycparser>=2.13",
     "pyasn1>=0.1.8",
     "six>=1.4.1",
     "setuptools>=11.3",
